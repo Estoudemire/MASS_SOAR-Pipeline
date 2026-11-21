@@ -20,12 +20,12 @@ To run the file, you have to edit the information in the first Jupyter cell:
 - Set **csvFile** equal to a string with the directory of your CSV file   
 - Set **final\_csv\_name** equal to a string with the name you’d like to use for the output file. Make sure that the name ends with ‘.csv’   
 - Set **rhomin** equal to a string with the column name that contains minimum separations.   
-- Set **dm1** equal to to a string with the column name that contains magnitude differences at 0.1 arcseconds   
-- Set **dm1\_err** equal to to a string with the column name that contains the error on the magnitude differences at 0.1 arcseconds   
-- Set **dm015** equal to to a string with the column name that contains the magnitude differences  at 0.15 arcseconds   
-- Set **dm015\_err** equal to to a string with the column name that contains the error on the magnitude differences  at 0.15 arcseconds   
+- Set **dm1** equal to a string with the column name that contains magnitude differences at 0.1 arcseconds   
+- Set **dm1\_err** equal to a string with the column name that contains the error on the magnitude differences at 0.1 arcseconds   
+- Set **dm015** equal to a string with the column name that contains the magnitude differences  at 0.15 arcseconds   
+- Set **dm015\_err** equal to a string with the column name that contains the error on the magnitude differences  at 0.15 arcseconds   
 - Set **plx** equal to a string with the column name that contains parallax in arcseconds   
-- Set **plx\_err** equal to to a string with the column name that contains the error on parallax in arcseconds   
+- Set **plx\_err** equal to a string with the column name that contains the error on parallax in arcseconds   
 - Set **cMag** equal to a string with the column name that contains the combined magnitudes of both objects in either V-band or I-band  
 - Set **colormap** equal to a string with the name of the colormap you’d like to use for the plots.   
 - Set **cMag\_err** equal to a string with the column name that contains the error of the combined magnitudes of both objects in either V-band or I-band.   
